@@ -1,0 +1,47 @@
+.container {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.name {
+  max-width: calc(100% - 40px);
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+  overflow: hidden;
+}
+
+.dataItem {
+  max-width: 300px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-items: flex-start;
+  overflow: hidden;
+}
+
+.dataItemNameIcon {
+  height: 30px;
+  width: 30px;
+}
+
+.dataItemNumberIcon {
+  height: 24px;
+  width: 30px;
+}
+
+.btn {
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
